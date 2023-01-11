@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200&display=swap"');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+  width: 56px;
+  height: 48px;
+  background: url(/src/assets/logo.gif) no-repeat;
+  background-size: contain;
+}
